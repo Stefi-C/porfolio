@@ -495,7 +495,7 @@ ul.numbersList span{
 
 #testimonials .block-heading h1
 {
-	color: rgb(0, 129, 129);
+	color: var(--cold-pink);
 	font-family: 'Milonga', cursive;
 	font-weight: 400;
 	font-size: 55px;
@@ -693,7 +693,7 @@ input[type="submit"]:hover {
 
 #site-footer {
     /* background-color: #35405f; */
-    background-color: rgba(32, 178, 170, 0.86);
+    background-color: var(--cold-pink);
     color: var(--white);
     padding: 14px;
     font-size: 14px;

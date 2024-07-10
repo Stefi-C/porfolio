@@ -361,7 +361,7 @@ body {
 	padding: 1em;
 	height: 3.75em;
 	background: rgba(0,0,0,0.75);
-	color: #4a3c50;
+	color: var(--cold-pink);
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
@@ -386,7 +386,7 @@ body {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	background: #3085a3;
+	background: var(--pink);
 	text-align: center;
 	cursor: pointer;
 }
@@ -394,7 +394,7 @@ body {
 {
 	display: inline-block;
 	padding: 30px 10px;
-	color: cyan;
+	color: plum;
 	font-size: 22px;
 }
 

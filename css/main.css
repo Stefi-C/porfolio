@@ -301,7 +301,11 @@ body {
 /*////////////////////////////////////////////////////////////////////////
 //  06 - Latest works > isotope
 ///////////////////////////////////////////////////////////////////////*/
-
+figcaption h2{
+	font-size: 18px;
+	height: 70px;
+	width: 80%;
+}
 .isotope:after {
   content: '';
   display: block;
@@ -341,7 +345,17 @@ body {
 	border: 1px solid var(--cold-pink);
 	background-color: var(--hot-pink);
 }
+.element-btn{
+	color: var(--cold-pink);
+	border: none;
+	border-radius: 30px;
+	width: 100%;
+	margin-top: -10px;
 
+}
+.element-btn:hover{
+	border: 1px solid var(--cold-pink);
+}
 
 /* ==============================  Image hover effect ============================== */
 

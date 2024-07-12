@@ -54,6 +54,7 @@ Text Domain: developer
 html, body {
 	margin: 0; 
 	padding: 0;
+	overflow-x: hidden;
 }
 
 ::selection {
@@ -301,9 +302,12 @@ body {
 /*////////////////////////////////////////////////////////////////////////
 //  06 - Latest works > isotope
 ///////////////////////////////////////////////////////////////////////*/
+.icon-links{
+	height: 50px;
+}
 figcaption h2{
-	font-size: 18px;
-	height: 70px;
+	font-size: 11px;
+	height: 20px;
 	width: 80%;
 }
 .isotope:after {
@@ -455,6 +459,10 @@ figcaption h2{
     text-align: center;
 	
 }
+.container-fluid{
+	width: 100%;
+	box-sizing: border-box;
+}
 .container-side{
 	display: flex;
 	align-items: center;
@@ -482,7 +490,7 @@ figcaption h2{
 	align-items: center;
 	justify-content: center;
 	text-align: justify;
-	width: 550px ;
+	width: 350px ;
 }
 
 

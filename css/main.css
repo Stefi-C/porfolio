@@ -453,11 +453,42 @@ figcaption h2{
     width: 100%;
     color: var(--white);
     text-align: center;
+	
 }
+.container-side{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 80px;
+	
+}
+.container-side .about-desc{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	
+}
+.container-side .about-img{
+	height: auto;
+}
+.about-img img{
+	width: 500px;
+	height: 350px;
+}
+.about-desc p{
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
+	width: 550px ;
+}
+
 
 #numbers
 {
-	background: url(../img/bg/number1.gif) repeat center center fixed;
+	background: linear-gradient(to bottom, #e6c7e092 0%, #ce9eb8a6 100%), url(../img/bg/number1.gif) repeat center center fixed;
 }
 #numbers .overlay{
     padding: 60px 0px 80px 0px;

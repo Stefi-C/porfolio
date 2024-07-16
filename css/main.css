@@ -803,9 +803,20 @@ i.fa.fa-envelope-o {
 /////////////////////////////////////////////////////////////////////*/
 
 @media (max-width: 991px) {
+	
 	.element-item {
 		width: 33.33%;
 	}
+	.container h1{
+        font-size: 70px;
+    }
+	.container-side{
+        padding: 40px;
+    }
+    .about-img img{
+        width: 400px;
+		height: 280px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -820,6 +831,17 @@ i.fa.fa-envelope-o {
 	.copyright, .designed-by {
 		text-align: center;
 	}
+	.container h1{
+        font-size: 50px;
+    }
+   
+    .container-side{
+        flex-direction: column;
+        padding: 40px;
+    }
+    .about-img img{
+        width: 400px;
+    }
 }
 
 @media (max-width: 500px) {

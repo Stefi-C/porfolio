@@ -270,6 +270,18 @@ body {
 /*////////////////////////////////////////////////////////////////////////
 //  06 - Latest works
 ///////////////////////////////////////////////////////////////////////*/
+#portfolio {
+	padding: 60px 40px;
+}
+
+#portfolio .block-heading h1 {
+    color: rgb(135, 99, 120);
+	
+	font-weight: 400;
+	
+    font-size: 55px;
+    font-family: 'Milonga', cursive;
+}
 .card-container{
 	width: 100%;
 	height: 100vh;

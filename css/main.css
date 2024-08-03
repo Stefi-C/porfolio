@@ -595,7 +595,7 @@ figcaption h2{
 
 #numbers
 {
-	background: linear-gradient(to bottom, #e6c7e092 0%, #ce9eb8a6 100%), url(../img/bg/number1.gif) repeat center center fixed;
+	background: linear-gradient(to bottom, #edddea92 0%, #f4c4dda6 100%), url(../img/bg/header-bg.jpg) repeat center center fixed;
 }
 #numbers .overlay{
     padding: 60px 0px 80px 0px;

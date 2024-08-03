@@ -32,6 +32,8 @@ Text Domain: developer
 * 11.0 - Responsive styles
 * -----------------------------------------------------------------------------
 */
+
+
 :root{
 	--cold-pink: #857081;
 	--hot-pink: #ce9eb8;
@@ -789,62 +791,29 @@ input[type="submit"]:hover {
 .social-box li a {
 	transition: 0.5s background linear;
 	color: var(--white);
+	padding: 5px 7px;
+	font-size: 24px;
+	width: 20px;
+}
+.social-box li a:hover{
+	color: var(--pink);
+	
+
+}
+.social-box li:hover{
+	transform: scale(1.5);
 }
 
-.facebook-icon {
-    padding: 10px 17px;
-	border-radius: 50%;
-    border: 3px solid #44619D;
-    background-color:transparent;
-}
 
-.facebook-icon:hover {
-    background-color: transparent;
-    color: var(--white);
-}
 
-.github-icon{
-	padding: 10px 15px;
-	border: 3px solid #222;
-	border-radius: 50%;
-	background-color: transparent;
-}
 
-.github-icon:hover {
-	background-color: transparent;
-	color: var(--white);
-}
 
-.g-plus-icon {
-	padding: 10px 15px;
-	border-radius: 50%;
-	border: 3px solid #DD4C39;
-	background-color: transparent;
-}
-
-.g-plus-icon:hover {
-	background-color: transparent;
-	color: var(--white);
-}
-
-.linkedin-icon {
-	padding: 10px 15px;
-	border: 3px solid #1B86BD;
-	background-color: transparent;
-	border-radius: 50%;
-}
-
-.linkedin-icon:hover {
-	background-color: transparent;
-	color: var(--white);
-}
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  10 - Footer
 /////////////////////////////////////////////////////////////////////*/
 
 #site-footer {
-    /* background-color: #35405f; */
     background-color: var(--cold-pink);
     color: var(--white);
     padding: 14px;
@@ -873,7 +842,7 @@ input[type="submit"]:hover {
 
 .rotated-icon {
     position: relative;
-    display: inline-block;
+    display: flex;
     float: left;
     width: 50px;
 }
@@ -891,7 +860,7 @@ i.fa.fa-envelope-o {
 
 .contact-info p{
 	margin-left: 70px;
-	display: inline-block;
+	display: flex;
 	float: left;
 	width: auto;
 	line-height: 43px;

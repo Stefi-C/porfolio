@@ -14,7 +14,6 @@
 		<link rel="stylesheet" href="css/owl.theme.min.css">
         <link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/responsive/mobile.css">
 
 		<!-- google font -->
         <link href='http://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet'>
@@ -29,6 +28,7 @@
         <script src="https://kit.fontawesome.com/36ca5abeae.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <!-- header&banner-->
         <div class="content-block" id="header">
             <div id="overlay-1">
                 <header id="site-header" class="clearfix">
@@ -72,8 +72,11 @@
                     <a href="#portfolio"><i class="fa fa-angle-down fa-3x pulse"></i></a>
                 </div>
             </div>  <!-- overlay-1 -->
-        </div>  <!-- content-block -->
+        </div> 
+         <!-- content-block -->
 
+
+         <!--portfolio-->
         <div class="content-block text-center" id="portfolio">
             <header class="block-heading cleafix">
                 <h1>Latest Works</h1>
@@ -88,12 +91,12 @@
                     <div class="back-card">
                         <h2>some title</h2>
                         <p>Lorem ipsum dolor sit amet.</p>
-                       <div class="social-media">
+                        <!--<div class="social-media">
                         <a href="#"><i class="fa fa-github"></i></a>
                         <a href="#"><i class="fa fa-dribbble"></i></a>
                         <a href="#"><i class="fa fa-pinterest"></i></a>
                    
-                       </div>
+                       </div>-->
                        <button type="button"><a href="#">See It</a></button>
                     </div>
                 </div>
@@ -104,15 +107,15 @@
                        <img src="/img/portfolio-1.jpg" alt="">
                     </div>
                      <div class="back-card">
-                        <h2>some title</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                       <div class="social-media">
+                        <h2>Guitar Website</h2>
+                        <p>Play Guitar For Hobby</p>
+                       <!--<div class="social-media">
                         <a href="#"><i class="fa fa-github"></i></a>
                         <a href="#"><i class="fa fa-dribbble"></i></a>
                         <a href="#"><i class="fa fa-pinterest"></i></a>
                    
-                       </div>
-                       <button type="button"><a href="#">See It</a></button>
+                       </div>-->
+                       <button type="button"><a href="https://playguitarforhobby.lol/" target="_blank">See It</a></button>
                     </div>
                 </div>
             </div>
@@ -124,12 +127,12 @@
                      <div class="back-card">
                         <h2>some title</h2>
                         <p>Lorem ipsum dolor sit amet.</p>
-                       <div class="social-media">
+                       <!--<div class="social-media">
                         <a href="#"><i class="fa fa-github"></i></a>
                         <a href="#"><i class="fa fa-dribbble"></i></a>
                         <a href="#"><i class="fa fa-pinterest"></i></a>
                    
-                       </div>
+                       </div>-->
                        <button type="button"><a href="#">See It</a></button>
                     </div>
                 </div>
@@ -142,12 +145,12 @@
                      <div class="back-card">
                         <h2>some title</h2>
                         <p>Lorem ipsum dolor sit amet.</p>
-                       <div class="social-media">
+                       <!--<div class="social-media">
                         <a href="#"><i class="fa fa-github"></i></a>
                         <a href="#"><i class="fa fa-dribbble"></i></a>
                         <a href="#"><i class="fa fa-pinterest"></i></a>
                    
-                       </div>
+                       </div>-->
                        <button type="button"><a href="#">See It</a></button>
                     </div>
                 </div>
@@ -160,12 +163,12 @@
                      <div class="back-card">
                         <h2>some title</h2>
                         <p>Lorem ipsum dolor sit amet.</p>
-                       <div class="social-media">
+                       <!--<div class="social-media">
                         <a href="#"><i class="fa fa-github"></i></a>
                         <a href="#"><i class="fa fa-dribbble"></i></a>
                         <a href="#"><i class="fa fa-pinterest"></i></a>
                    
-                       </div>
+                       </div>-->
                        <button type="button"><a href="#">See It</a></button>
                     </div>
                 </div>
@@ -178,20 +181,22 @@
                      <div class="back-card">
                         <h2>some title</h2>
                         <p>Lorem ipsum dolor sit amet.</p>
-                       <div class="social-media">
+                         <!--<div class="social-media">
                         <a href="#"><i class="fa fa-github"></i></a>
                         <a href="#"><i class="fa fa-dribbble"></i></a>
                         <a href="#"><i class="fa fa-pinterest"></i></a>
                    
-                       </div>
+                       </div>-->
                        <button type="button"><a href="#">See It</a></button>
                     </div>
                 </div>
             </div>
            </div>
 
-        </div>  <!-- content-block -->
-
+        </div> 
+         <!-- content-block -->
+        
+        <!--services-->
       <div id="services" class="content-block">
             <div id="numbers" class="parallax">
                 <div class="overlay">
@@ -252,9 +257,11 @@
             </div>
         </div>
             
-
+     </div>
       <!-- content-block -->
+         
 
+        <!-- contact -->
         <div class="content-block" id="contact">
             <div class="overlay-3">
                 <header class="block-heading cleafix text-center">
@@ -265,11 +272,12 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 wow animated fadeInLeft">
-                                <form class="contact-form" action="form.php">
-                                    <input type="text" name="name" placeholder="Name" required>
-                                    <input type="email" name="email" placeholder="Email" required>
-                                    <textarea rows="5" name="message" placeholder="Say Something..." required></textarea>
-                                    <input type="submit" value="Submit">
+                                <form class="contact-form" action="https://formspree.io/f/mgvwyved" method="post">
+                                    <input id="name" type="text" name="name" placeholder="Name" required>
+                                    <input id="email" type="email" name="email" placeholder="Email" required>
+                                    <input id="subject" type="subject" name="subject" placeholder="Subject" required>
+                                    <textarea id="message" rows="5" name="message" placeholder="Say Something..." required></textarea>
+                                    <input id="submit" type="submit" value="Submit">
                                 </form>
                             </div>
                             <div class="col-md-6 wow animated fadeInRight">
@@ -289,7 +297,7 @@
                                                     <div class="sqaure-nebir"></div>
                                                     <i class="fa fa-mobile"></i>
                                                 </div>
-                                                <p><strong> Cell No:</strong> 0049-1627643316</p>
+                                                <p><strong> Cell No: </strong> 0049-1627643316</p>
                                             </div>
                                             <div class="clearfix">
                                                 <div class="rotated-icon">
@@ -297,7 +305,7 @@
                                                     <i class="fa fa-envelope-o"></i>
                                                 </div>
                                                 <p>
-                                                    <strong> Email:</strong>stefi_c@icloud.com
+                                                    <strong> Email:</strong>stefi_c.dev@icloud.com
                                                 </p>
                                             </div>
                                         </div>
@@ -316,8 +324,11 @@
                     </div>
                 </div>	<!-- block-content -->
             </div>	<!-- overlay-3 -->
-        </div>	<!-- content-block -->
+        </div>	
+        <!-- content-block -->
+         
 
+        <!-- footer -->
         <footer id="site-footer">
             <div class="container">
                 <div class="row">
@@ -329,7 +340,8 @@
                     </div>
                 </div>
             </div>
-        </footer>	<!-- site-footer -->
+        </footer>
+        <!-- content-block -->
 
 
         <!-- js -->

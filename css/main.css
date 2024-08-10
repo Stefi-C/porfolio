@@ -586,6 +586,7 @@ figcaption h2{
 .about-img img{
 	width: 500px;
 	height: 350px;
+	opacity: .5;
 }
 .about-desc p{
 	align-items: center;
@@ -887,7 +888,9 @@ i.fa.fa-envelope-o {
 
 
 
-
+textarea{
+	resize: none;
+}
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  12 - Responsive styles

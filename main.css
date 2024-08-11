@@ -102,7 +102,7 @@ body {
 ///////////////////////////////////////////////////////////////////////*/
 
 #header {
-	background: url(/banner-bg.jpg) no-repeat center top fixed;
+	background: url(./banner-bg.jpg) no-repeat center top fixed;
 	background-size: cover;
 }
 
@@ -598,7 +598,7 @@ figcaption h2{
 
 #numbers
 {
-	background: linear-gradient(to bottom, #edddea92 0%, #f4c4dda6 100%), url(/header-bg.jpg) no-repeat fixed;
+	background: linear-gradient(to bottom, #edddea92 0%, #f4c4dda6 100%), url(./header-bg.jpg) no-repeat fixed;
 	background-size: cover;
 }
 #numbers .overlay{
@@ -690,7 +690,7 @@ ul.numbersList span{
 /////////////////////////////////////////////////////////////////////*/
 
 #contact {
-	background:linear-gradient(to right, #4a3c50a8 0%, #857081b7 100%), url(/header-bg.jpg) no-repeat center center fixed;
+	background:linear-gradient(to right, #4a3c50a8 0%, #857081b7 100%), url(./header-bg.jpg) no-repeat center center fixed;
 	background-size: cover;
 	color: var(--white);
 }
